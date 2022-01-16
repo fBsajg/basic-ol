@@ -9,5 +9,5 @@ Use `npm start` to run app in dev mode [http://localhost:3000/](http://localhost
 
 ### Backend
 
-For displaying data use Spatialite based backend [https://github.com/fBsajg/basic-express-spatialite](https://github.com/fBsajg/basic-express-spatialite).aa
+For displaying data use Spatialite based backend [https://github.com/fBsajg/basic-express-spatialite](https://github.com/fBsajg/basic-express-spatialite).
 
