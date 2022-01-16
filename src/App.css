@@ -1,0 +1,63 @@
+:root {
+  --ol-blue: rgba(0, 60, 136, 0.6);
+  --ol-white: rgba(255, 255, 255, 0.8);
+  --baseGold: rgba(146, 99, 28, 0.6);
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body,
+.map,
+#map,
+#root {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: var(--ol-blue);
+}
+
+.ol-scale-line {
+  left: unset;
+  right: 0.5em;
+}
+
+.output {
+  padding-top: 0.5em;
+}
+
+.legendCtrl > ul {
+  display: none;
+}
+
+.custom-zoom {
+  top: 0.5em;
+  right: 0.5em;
+  left: unset;
+  z-index: 500;
+}
+
+.custom-ol-select {
+  position: absolute;
+  top: 70px;
+  right: 0.5em;
+}
+
+hr {
+  border-bottom: 1px solid var(--baseGold);
+}
+
+.li-content {
+  text-align: left;
+  color: var(--ol-blue);
+}
+
+input {
+  text-align: center;
+  border:none;
+  background: transparent;
+}
